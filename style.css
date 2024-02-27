@@ -45,6 +45,46 @@ main {
         HEADER
 ------------------------*/
 
+header {
+    background-color: #f8f9fa;
+}
+
+header .container-fluid {
+    background-color: #fff;
+}
+
+.ms-logo-mobile {
+    width: 50px;
+}
+
+.search-container {
+    background-color: #e5e5e5;
+}
+
+.search-container .form-control {
+    background-color: #e5e5e5;
+}
+
+.search-container .form-control:focus {
+    box-shadow: none;
+    border: none;
+    background-color: #e5e5e5;
+}
+
+.fa-bell {
+    color: #ff8f00;
+}
+
+.extension-icon i {
+    padding: 0 5px;
+}
+
+.extension-icon a {
+    list-style: none;
+    text-decoration: none;
+    color: #5b5858;
+}
+
 /*----------------------
         ASIDE
 ------------------------*/
