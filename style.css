@@ -1,0 +1,72 @@
+/*----------------------
+        HEADER
+------------------------*/
+
+.ms-header {
+    height: 4.375rem;
+}
+
+/*----------------------
+        DEBUG
+------------------------*/
+
+.debug {
+    border: 2px solid red;
+}
+
+.debug-2 {
+    border: 2px solid blue;
+}
+
+.debug-3 {
+    border: 2px solid green;
+}
+
+/*----------------------
+        LAYOUT
+------------------------*/
+
+.main-content {
+    height: calc(100vh - 4.375rem);
+    overflow-y: auto;
+}
+
+aside {
+    width: 68px;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+/*----------------------
+        HEADER
+------------------------*/
+
+/*----------------------
+        ASIDE
+------------------------*/
+
+/*----------------------
+        MAIN
+------------------------*/
+
+/*----------------------
+    MEDIA QUERY => 768px md
+------------------------*/
+
+@media screen and  (min-width: 768px) {
+
+}
+
+/*----------------------
+    MEDIA QUERY => 992px lg
+------------------------*/
+
+@media screen and  (min-width: 992px) {
+    aside {
+        width: 150px;
+    }
+}
