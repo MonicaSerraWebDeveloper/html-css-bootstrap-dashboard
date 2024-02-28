@@ -84,6 +84,10 @@ header .container-fluid {
     text-decoration: none;
     color: #5b5858;
 }
+.dropdown .ms-btn-bell {
+    padding: 0;
+    border: none;
+}
 
 /*----------------------
         ASIDE
