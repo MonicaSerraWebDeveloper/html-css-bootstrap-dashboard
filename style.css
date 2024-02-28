@@ -130,6 +130,10 @@ main {
     background-color: #f8f9fa;
 }
 
+/*----------------------
+        TOP BAR BLUE
+------------------------*/
+
 .ms-top-bar {
     background-color: #1b72e8;
 }
@@ -144,6 +148,19 @@ main {
 
 .ms-title-breadcrumb-container a {
     text-decoration: none;
+}
+
+/*----------------------
+       OFFCANVAS
+------------------------*/
+
+.ms-offcanvas-parent .offcanvas.offcanvas-end {
+    width: 100%;
+}
+
+.ms-offcanvas-parent label {
+    font-size: 14px;
+    font-weight: 500;
 }
 
 /*----------------------
@@ -169,5 +186,11 @@ main {
 
     .ms-menu-aside a:hover {
         background-color: #e5e5e580;
+    }
+
+    /* OFFCANVAS */
+
+    .ms-offcanvas-parent .offcanvas.offcanvas-end {
+        max-width: 40%;
     }
 }
