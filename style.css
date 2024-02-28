@@ -96,21 +96,27 @@ aside {
 
 .ms-menu-aside {
     height: 100%;
-    padding-top: 1.5rem;
+    padding: 1.5rem 0;
     padding-left: 0;
 }
 
 .ms-menu-aside li {
     list-style: none;
-    padding-bottom: 0.5rem;
+    padding: 0.3rem 0.3rem;
 }
 
 .ms-menu-aside a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
 }
 
+.ms-menu-aside li:hover {
+    background-color: #e5e5e580;
+}
 
 /*----------------------
         MAIN
@@ -139,5 +145,13 @@ main {
 @media screen and  (min-width: 992px) {
     aside {
         width: 150px;
+    }
+
+    .ms-menu-aside li:hover {
+        background-color: transparent;    
+    }
+
+    .ms-menu-aside a:hover {
+        background-color: #e5e5e580;
     }
 }
