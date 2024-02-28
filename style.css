@@ -134,6 +134,18 @@ main {
     background-color: #1b72e8;
 }
 
+.ms-badge-bg {
+    background-color: #165bba;
+}
+
+.ms-title-breadcrumb-container .badge {
+    border-radius: 50px;
+}
+
+.ms-title-breadcrumb-container a {
+    text-decoration: none;
+}
+
 /*----------------------
     MEDIA QUERY => 768px md
 ------------------------*/
