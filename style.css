@@ -186,6 +186,8 @@ main {
     border-top-right-radius: 5px;
 }
 
+/* TABLE */
+
 .ms-table {
     background-color: #fff;
 }
@@ -208,6 +210,14 @@ main {
 
 .ms-img-avatar {
     width: 30px;
+}
+
+/* STATISTICS */
+
+.ms-stats-container .list-group {
+    border-top: 1px solid #cbcbcb;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 /*----------------------

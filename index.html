@@ -191,7 +191,7 @@
             <div class="ms-bottom-content-box">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="debug py-3 col-12 col-lg-8">
+                        <div class="py-3 col-12 col-lg-8">
                             <!-- Table  -->
                             <div class="ms-table-container rounded mb-3">
                                 <div class="ms-title-main ps-2 py-2">
@@ -407,36 +407,49 @@
                             </div>
                         </div>
                         <div class="py-3 col-12 col-lg-4">
+                            <!-- Checkbox list  -->
                             <div class="ms-todo rounded mb-3">
                                 <div class="ms-title-main ps-2 py-2">
                                     <h3 class="h5">Todo</h3>
                                 </div>                             
                                 <div class="ms-list-container p-3">
                                     <ul class="list-group">
-                                        <li class="list-group-item"><input class="me-2" type="checkbox">Kickoff nuove classi</li>
-                                        <li class="list-group-item"><input class="me-2" type="checkbox">Lezioni su Bootstrap 5 in classe #75</li>
-                                        <li class="list-group-item"><input class="me-2" type="checkbox">Controllare username github studenti</li>
+                                        <li class="list-group-item">
+                                            <input id="check" class="me-2" type="checkbox">
+                                            <label for="check">Kickoff nuove classi</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input id="check-2" class="me-2" type="checkbox">
+                                            <label for="check-2">Lezioni su Bootstrap 5 in classe #75</label>    
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input id="check-3" class="me-2" type="checkbox">
+                                            <label for="check-3">Controllare username github studenti</label>
+                                        </li>
                                     </ul>
                                 </div>
+                            <!-- / Checkbox list  -->
                             </div>
                             <div>
+                            <!-- Statistics  -->
                             <div class="ms-stats-container rounded">
                                 <div class="p-3">
                                     <div class="ms-img-container">
-                                        <img class="w-75" src="./img/stats.jpeg" alt="">
+                                        <img class="img-fluid" src="./img/stats.jpeg" alt="">
                                     </div> 
                                     <div>
                                         <h3 class="h5">Utenti attivi</h3>
-                                        <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>   
+                                        <p class="m-0">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>   
                                     </div>                     
                                 </div>
-                                <ul class="list-group">
+                                <ul class="list-group list-group-flush">
                                     <li class="list-group-item">Gennaio: 1200</li>
                                     <li class="list-group-item">Febbraio: 800</li>
                                     <li class="list-group-item">Marzo: 1500</li>
-                                    <li class="list-group-item"><a href="#">Visualizza report approfondimento</a></li>
+                                    <li class="list-group-item py-3"><a href="#">Visualizza report approfondimento</a></li>
                                 </ul>
                             </div>
+                            <!-- / Statistics  -->
                         </div>
                     </div>
                 </div>
@@ -444,7 +457,6 @@
         </main>
         <!-- / Main Content  -->
     </div>
-
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- / Bootstrap Script -->
