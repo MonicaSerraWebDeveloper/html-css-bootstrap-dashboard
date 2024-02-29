@@ -169,14 +169,18 @@ main {
 
 .ms-table-container {
     border: 1px solid #cbcbcb;
+    background-color: #fff;
 }
 
 .ms-table-container table {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .ms-title-table {
     border-bottom: 1px solid #cbcbcb;
+    background-color: #f8f9fa;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .ms-table {
@@ -187,6 +191,14 @@ main {
     font-weight: 400;
 }
 
+.ms-table td {
+    text-align: center;
+}
+
+.ms-table img {
+    margin-right: 5px;
+}
+
 .ms-table i {
     font-size: 14px;
 }
@@ -194,6 +206,20 @@ main {
 .ms-img-avatar {
     width: 30px;
 }
+
+/*----------------------
+    MEDIA QUERY =< 767px sm
+------------------------*/
+
+@media screen and  (max-width: 767px) {
+    td:nth-of-type(1), 
+    td:nth-of-type(2),
+    th:nth-of-type(2), 
+    th:nth-of-type(3) {
+        display: none;
+    }
+}
+
 
 /*----------------------
     MEDIA QUERY => 768px md
