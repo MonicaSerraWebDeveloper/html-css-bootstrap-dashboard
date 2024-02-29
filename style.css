@@ -167,7 +167,8 @@ main {
        MAIN CONTENT
 ------------------------*/
 
-.ms-table-container {
+.ms-table-container,
+.ms-accordion {
     border: 1px solid #cbcbcb;
     background-color: #fff;
 }
@@ -176,9 +177,9 @@ main {
     font-size: 12px;
 }
 
-.ms-title-table {
+.ms-title-main {
     border-bottom: 1px solid #cbcbcb;
-    background-color: #f8f9fa;
+    background-color: #f7f7f7;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
