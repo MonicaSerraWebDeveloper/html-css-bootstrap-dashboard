@@ -164,6 +164,38 @@ main {
 }
 
 /*----------------------
+       MAIN CONTENT
+------------------------*/
+
+.ms-table-container {
+    border: 1px solid #cbcbcb;
+}
+
+.ms-table-container table {
+    font-size: 14px;
+}
+
+.ms-title-table {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.ms-table {
+    background-color: #fff;
+}
+
+.ms-table th {
+    font-weight: 400;
+}
+
+.ms-table i {
+    font-size: 14px;
+}
+
+.ms-img-avatar {
+    width: 30px;
+}
+
+/*----------------------
     MEDIA QUERY => 768px md
 ------------------------*/
 
