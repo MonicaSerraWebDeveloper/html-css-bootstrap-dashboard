@@ -1,28 +1,4 @@
 /*----------------------
-        HEADER
-------------------------*/
-
-.ms-header {
-    height: 4.375rem;
-}
-
-/*----------------------
-        DEBUG
-------------------------*/
-
-.debug {
-    border: 2px solid red;
-}
-
-.debug-2 {
-    border: 2px solid blue;
-}
-
-.debug-3 {
-    border: 2px solid green;
-}
-
-/*----------------------
         LAYOUT
 ------------------------*/
 
@@ -44,6 +20,10 @@ main {
 /*----------------------
         HEADER
 ------------------------*/
+
+.ms-header {
+    height: 4.375rem;
+}
 
 header {
     background-color: #f8f9fa;
@@ -225,6 +205,9 @@ main {
 ------------------------*/
 
 @media screen and  (max-width: 767px) {
+    
+    /* TABLE */
+
     td:nth-of-type(1), 
     td:nth-of-type(2),
     th:nth-of-type(2), 
@@ -234,18 +217,13 @@ main {
 }
 
 /*----------------------
-    MEDIA QUERY => 768px md
-------------------------*/
-
-@media screen and  (min-width: 768px) {
-
-}
-
-/*----------------------
     MEDIA QUERY => 992px lg
 ------------------------*/
 
 @media screen and  (min-width: 992px) {
+
+    /* ASIDE */
+
     aside {
         width: 150px;
     }
@@ -261,6 +239,6 @@ main {
     /* OFFCANVAS */
 
     .ms-offcanvas-parent .offcanvas.offcanvas-end {
-        max-width: 40%;
+        max-width: 50%;
     }
 }
